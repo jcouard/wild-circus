@@ -1,0 +1,140 @@
+body {
+	font-size: 20px; font-family: arial;
+	background: url('image/fond.jpg'), no-repeat;
+	background-size: cover;
+}
+
+header	{
+	font-size: 30px; font-family: verdana;color: #c2a255;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	height: 50px;width: 1000px;
+	padding-top: 10px;padding-bottom: 10px;
+	background-repeat: no-repeat;
+	font-weight: bold;	font-style: oblique;
+	z-index: 100;
+
+}
+ul {
+	border-radius: 50px;
+	background-image: url("image/or.jpg");
+	width: 500px;
+	max-height: 50px;
+	padding-top: 14px;padding-bottom: 10px;
+	margin: 0 auto;
+}
+ul li {
+	clear: both;margin-left: 9px;
+	list-style-type: none; display: inline-block;
+	margin: 0 auto;
+	}
+ul li a {
+	margin-left: 17px;
+	color: black;
+	float: left; padding: 1px 5px 1px 5px;
+	font-family: "learning curve";
+
+
+}
+.langue {
+	position: absolute;
+	float: left;
+	top: 10px;right: 15px;
+	z-index: 10;
+	overflow: hidden;
+}
+
+#p1 {
+
+	max-width: 400px;min-height: 300px;
+	float: left;
+	text-align: justify; 
+	margin-left: 15px;
+	font-size: 24px; font-family: "Gabriola";
+	background-image: url("image/or.jpg");
+	padding: 5px 5px 5px 5px;
+	z-index: 100;
+	border-radius: 20px;
+
+}
+#p2 {
+	max-width: 400px;float: left;
+	text-align: justify; 
+	margin-left: 15px;margin-bottom: 20px;
+	font-size: 22px; font-family: "Gabriola";
+	background-image: url("image/or.jpg");
+	padding: 5px 5px 0 5px;
+	margin-top: 48px;
+	z-index: 100; float: left;
+	border-radius: 20px;
+}
+#cirque {
+	margin-top: 65px; margin-bottom: 90px; margin-left: 15px;
+	float: left;
+	z-index: 10;
+	overflow: hidden;
+
+}
+#clown {
+	float: left;margin-left: -400px;
+	z-index: 10;
+}
+#anim {
+	float: left;margin-top: -50px;
+	margin-left: 70px;
+	z-index: 10;
+}
+
+#popcorn {
+	float: left;margin-top: 50px;
+	margin-left: 70px;
+	z-index: 10;
+
+}
+
+.x1 {
+	font-weight: bold;
+	font-style: oblique;
+}
+#ara {
+	float: left;
+	margin-left: -310px;
+	margin-top: -90px;
+}
+
+#equipe {
+	margin-left: 410px;
+	margin-bottom: 20px; 
+}
+footer	{
+	height: 50px;width: 1355px; 
+	background: url('image/or.jpg');
+	float: left;
+	margin: 0 -60px -20px -20px;
+}
+#fin {
+	float: left;
+	margin-left: 530px;
+	font-size: 12px;font-weight: bold;font-family: arial;
+}
+#footer	{
+	float: left;
+	margin-left: 640px;margin-top: -25px;
+}
+
+
+
+
+
+
+
+.spoiler-content {
+	display: none;
+}
+.spoiler-content.visible {
+	display: block;
+}
+.spoiler {
+	
+}
